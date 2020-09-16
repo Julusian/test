@@ -31,7 +31,8 @@
     "node": ">=10"
   },
   "dependencies": {
-    "@julusian/freetype2": "^0.5.0-1"
+    "@julusian/freetype2": "^0.5.0-1",
+    "sharp": "^0.26.0"
   },
   "devDependencies": {}
 }

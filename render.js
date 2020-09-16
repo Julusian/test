@@ -1,8 +1,8 @@
 const fs = require('fs');
 const sharp = require('sharp');
-const freetype = require('..');
+const freetype = require('@julusian/freetype2');
 
-const face = freetype.NewMemoryFace(fs.readFileSync(__dirname + '/../spec/fonts/OpenBaskerville-0.0.53/OpenBaskerville-0.0.53.otf'));
+const face = freetype.NewMemoryFace(fs.readFileSync(__dirname + '/OpenBaskerville-0.0.53.otf'));
 face.setPixelSizes(40, 0);
 
 (async function(){
